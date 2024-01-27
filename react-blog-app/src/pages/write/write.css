@@ -1,0 +1,61 @@
+
+.write {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.writeForm {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.writeFormGroup {
+  margin-bottom: 20px;
+}
+
+.writeLabel {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.writeInput,
+.writeText,
+.writeSelect {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.writeSelect {
+  appearance: none;
+  padding-right: 25px; /* to make room for the arrow */
+  background: url('https://cdn-icons-png.flaticon.com/512/271/271228.png') no-repeat right center; /* add a custom arrow image */
+  background-size: 20px;
+}
+
+.writeSubmit {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.writeSubmit:hover {
+  background-color: #45a049;
+}
+
+/* Add any additional styling as needed */
