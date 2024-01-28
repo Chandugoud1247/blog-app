@@ -10,9 +10,9 @@ const port = 5000;
 // Create a MySQL connection
 const db = mysql.createConnection({
   host: "localhost",
-  user: "root",
-  password: "12345678",
-  database: "blog",
+  user: 'your_mysql_username',
+  password: 'your_mysql_password',
+  database: 'your_database_name',
 });
 
 // Connect to MySQL
@@ -25,7 +25,7 @@ db.connect((err) => {
 });
 
 // Define a secret key for signing the JWT tokens
-const JWT_SECRET_KEY = 'nani@124';
+const JWT_SECRET_KEY = 'your_secret_key_here';
 
 // Function to generate a JWT token
 function generateToken(userId) {
